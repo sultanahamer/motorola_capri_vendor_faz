@@ -1,0 +1,100 @@
+{
+  "config":{
+    "hw_platform": ["IDP"],
+    "soc_id": [ "394", "417", "420", "444", "445" ],
+    "ro.vendor.hw.revision": ["dvt1","dvt2"]
+  },
+  "vcnl36866_0_platform":{
+    "owner": "sns_vcnl36866",
+    ".custom_param":{
+      "owner": "sns_vcnl36866",
+      "lux_thd1":{ "type": "flt", "ver": "0",
+        "data": "0.5"
+      },
+      "lux_thd2":{ "type": "flt", "ver": "0",
+        "data": "5.0"
+      },
+      "lux_coef1":{ "type": "flt", "ver": "0",
+        "data": "0.226"
+      },
+      "lux_coef2":{ "type": "flt", "ver": "0",
+        "data": "0.163"
+      },
+      "lux_coef3":{ "type": "flt", "ver": "0",
+        "data": "0.158"
+      },
+      "ps_pers":{ "type": "flt", "ver": "0",
+        "data": "48.0"
+      },
+      "ps_period":{ "type": "flt", "ver": "0",
+        "data": "64.0"
+      },
+      "ps_hg":{ "type": "flt", "ver": "0",
+        "data": "1024.0"
+      },
+      "ps_mps":{ "type": "flt", "ver": "0",
+        "data": "8192.0"
+      },
+      "ps_it":{ "type": "flt", "ver": "10101010",
+        "data": "49152.0‬"
+      },
+      "ps_sun_light_level":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".moto_param":{
+      "owner": "sns_vcnl36866",
+      "ps_max_high_thres":{ "type": "flt", "ver": "0",
+        "data": "2730.0"
+      },
+      "ps_xtalk_low":{ "type": "flt", "ver": "0",
+        "data": "90.0"
+      },
+      "ps_xtalk_high":{ "type": "flt", "ver": "0",
+        "data": "135.0"
+      },
+      "ps_fast_recal_hyst":{ "type": "flt", "ver": "0",
+        "data": "100.0"
+      },
+      "fac_lux_scale":{ "type": "flt", "ver": "10101010",
+        "data": "2.0"
+      },
+      "fac_lux_target":{ "type": "flt", "ver": "0",
+        "data": "100.0"
+      },
+      "def_lux_scale":{ "type": "flt", "ver": "10101010",
+        "data": "2.0"
+      },
+      "fac_ps_cover":{ "type": "flt", "ver": "10101010",
+        "data": "1000.0"
+      },
+      "def_ps_cover":{ "type": "flt", "ver": "10101010",
+        "data": "1000.0"
+      },
+      "fac_ps_uncover":{ "type": "flt", "ver": "10101010",
+        "data": "800.0"
+      },
+      "def_ps_uncover":{ "type": "flt", "ver": "10101010",
+        "data": "800.0"
+      },
+      "ps_high_coeff":{ "type": "flt", "ver": "10101010",
+        "data": "0.8"
+      },
+      "ps_low_coeff":{ "type": "flt", "ver": "10101010",
+        "data": "0.5"
+      },
+      "fac_ps_near_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "960.0"
+      },
+      "fac_ps_far_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "900.0"
+      },
+      "def_ps_near_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "960.0"
+      },
+      "def_ps_far_threshold":{ "type": "flt", "ver": "10101010",
+        "data": "900.0"
+      }
+    }
+  }
+}

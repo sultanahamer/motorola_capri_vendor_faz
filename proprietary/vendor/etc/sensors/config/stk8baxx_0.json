@@ -1,0 +1,64 @@
+{
+  "config":
+  {
+    "hw_platform": [ "HDK", "MTP", "Dragon", "Surf", "IDP" ],
+    "soc_id": [ "361", "339", "417", "444" ]
+  },
+  "stk8xxx_0":{
+    "owner": "sns_stk8xxx",
+    ".accel":{
+      "owner": "sns_stk8xxx",
+      ".config":{
+        "owner": "sns_stk8xxx",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+	".md":{
+      "owner": "sns_stk8xxx",
+      ".config":{
+        "owner": "sns_stk8xxx",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },	
+	".hd":{
+	  "owner": "sns_stk8xxx",
+	  ".config":{
+	  	"owner": "sns_stk8xxx",
+	  	"is_dri":{ "type": "int","ver": "0",
+	  	  "data": "1"
+	  	},
+	  	"hw_id":{ "type": "int","ver": "0",
+	  	  "data": "0"
+	  	},
+	  	"res_idx":{ "type": "int","ver": "0",
+	  	  "data": "2"
+	  	},
+	  	"sync_stream":{ "type": "int","ver": "0",
+	  	  "data": "0"
+	  	}
+	  }
+	}
+  }
+}
